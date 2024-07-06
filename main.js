@@ -92,3 +92,13 @@ function romanToInt(s) {
   // Return the result
   return result;
 }
+
+/*
+
+This solution ensures that the algorithm runs in O(n) time complexity and uses O(1) space complexity. 
+The map lookup operation is constant time, so the overall time complexity is linear in the length of the string.
+
+Это решение гарантирует, что алгоритм работает с временной сложностью O(n) и использует пространственную сложность O(1).
+Операция поиска по карте занимает постоянное время, поэтому общая временная сложность линейно зависит от длины строки.
+
+*/
